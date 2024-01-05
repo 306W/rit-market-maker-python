@@ -1,6 +1,6 @@
-# Sample Market Maker For RIT
+# Sample Trading Algorithm For RIT
 
-This is a very rudimentary implementation of a market making bot for RIT and uses the RIT Client API documented
+This is a very rudimentary implementation of a trading algorithm for RIT and uses the RIT Client API documented
 at https://rit.306w.ca/RIT-REST-API-DEV/1.0.3/.
 
 ## Setup
