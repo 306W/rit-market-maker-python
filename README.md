@@ -57,6 +57,6 @@ at https://rit.306w.ca/RIT-REST-API-DEV/1.0.3/.
    python main.py
    ```
 
-### Development
+## Development
 
 To extend the trading logic, simply edit `CustomArbitrageBot.py` or alternatively extend the `BaseArbitrageBot` with your own implementation.
