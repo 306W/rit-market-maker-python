@@ -9,7 +9,7 @@ at https://rit.306w.ca/RIT-REST-API-DEV/1.0.3/.
 
    a. Click **Get from VCS**.
 
-   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/0c3744c4-905e-4339-84a7-47713f419c61)
+   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/5e66734b-4b86-4f63-9638-6a26270ca592)
 
    b. Use this repository as the **URL**.
       ```
@@ -27,13 +27,13 @@ at https://rit.306w.ca/RIT-REST-API-DEV/1.0.3/.
     - In the tree navigation, select **Conda Environment**.
     - Ensure **Use existing environment** is selected.
 
-      ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/32220d54-b108-4d6d-8051-806bb95bfed6)
+      ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/077845e2-39fd-4055-9f44-b1e8c43baf26)
 
     - Click **OK** and **OK** again to return to the main window.
 
    f. Open up the built-in terminal.
 
-      ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/a846455f-bd83-4071-897d-86ef482fb60c)
+      ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/99f40612-55d8-4f59-b5a8-902321bd2931)
 
    g. Install the dependencies in `requirements.txt`.
 
@@ -45,13 +45,13 @@ at https://rit.306w.ca/RIT-REST-API-DEV/1.0.3/.
 
 3. Update the `settings.py` file with the API key / port found in the API Info window in the RIT client. If the API is showing an error, it means that somebody else is using that port (the VM instances are multi-tenant) so change it to a different random port and ensure the settings file matches.
 
-   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/20a1bdcf-0223-4177-ad9d-b778ad7cff78)
+   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/f9a950de-4d8d-4cf4-be52-c25d14409651)
 
-   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/4e2c6728-263d-4210-967e-e788ae85960a)
+   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/82d242d6-c904-4a8e-8d19-8a3a1081a573)
 
 4. Run the bot by opening the terminal and running `main.py`.
 
-   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/381f775b-3566-46e8-884a-2f1a317bdcfd)
+   ![image](https://github.com/306W/rit-market-maker-python/assets/2671978/b0b84a37-a128-4677-a08e-89f186eb2103)
 
    ```bash
    python main.py
