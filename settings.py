@@ -1,5 +1,7 @@
 settings = {
     'loop_interval': 1,
-    'api_host': 'http://localhost:9999',
-    'api_key': 'REPLACE_ME'
+    'api_host': 'http://localhost:10001',
+    'api_key': '',
+    'dma_host': 'http://localhost:10002',
+    'dma_key': ''
 }
