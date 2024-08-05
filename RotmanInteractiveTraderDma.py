@@ -1,6 +1,7 @@
 import json
 
 import requests
+from requests.auth import HTTPBasicAuth
 from enum import Enum
 import logging
 import time
@@ -27,8 +28,9 @@ class RotmanInteractiveTraderDma:
     Partial implementation of https://rit.306w.ca/RIT-REST-API-DEV/1.0.4/.
     """
 
-    def __init__(self, api_key: str, api_host='http://localhost:9999'):
-        self.api_key = api_key
+    def __init__(self, api_trader_id: str, api_password: str, api_host='http://localhost:9999'):
+        self.api_trader_id = api_trader_id
+        self.api_password = api_password
         self.api_host = api_host
         self.api_version = 'v1'
 
@@ -37,8 +39,8 @@ class RotmanInteractiveTraderDma:
             req = requests.Request(
                 method=method,
                 url=f'{self.api_host}/{self.api_version}/{endpoint}',
+                auth=HTTPBasicAuth(self.api_trader_id, self.api_password),
                 headers={
-                    'Authorization': f'Basic {self.api_key}',
                     'Accept': 'application/json'
                 },
                 params=params

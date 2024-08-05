@@ -7,7 +7,7 @@ from settings import settings
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    client = RotmanInteractiveTraderDma(api_key=settings['dma_key'], api_host=settings['dma_host'])
+    client = RotmanInteractiveTraderDma(api_trader_id=settings['dma_trader_id'], api_password=settings['dma_password'], api_host=settings['dma_host'])
     # verify connection
     trader = client.get_trader()
     logging.info(f'Connected as trader {json.dumps(trader, indent=2)}')
