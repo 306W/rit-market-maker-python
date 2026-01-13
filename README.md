@@ -61,7 +61,7 @@ at https://rit.306w.ca/RIT-REST-API-DEV/1.0.3/.
 
 6. Run the bot by opening the terminal and running `main.py`.
 
-   <img width="1053" height="123" alt="image" src="https://github.com/user-attachments/assets/e1ffc998-fee6-4a20-b30a-a4b519acab81" />
+   <img width="806" height="134" alt="image" src="https://github.com/user-attachments/assets/bfce693c-7f44-4589-a5c8-b0f13b483c1d" />
 
    ```
    python main.py
