@@ -29,7 +29,7 @@ at https://rit.306w.ca/RIT-REST-API-DEV/1.0.3/.
    
    e.  Open a terminal via **Terminal > New Terminal**.
    
-       <img width="396" height="101" alt="image" src="https://github.com/user-attachments/assets/1d4220ef-35fb-47c9-a528-1ca13fe01154" />
+   <img width="729" height="112" alt="image" src="https://github.com/user-attachments/assets/12a2eecd-1b74-4433-a973-77f722f09062" />
           
    f.  Setup and install the Python environment and dependencies.
 
